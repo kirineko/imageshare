@@ -24,7 +24,7 @@ public class ImageController {
     }
     @PostMapping(value = "add")
     @ResponseBody
-    public String add(@RequestBody Image image){
+    public String add(Image image){
       imageSevice.add(image);
         return "添加成功";
     }
