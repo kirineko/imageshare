@@ -10,6 +10,5 @@ import java.util.List;
 @Repository
 @Mapper
 public interface ImageMapper  extends BaseMapper<Image> {
-      void add(Image image);
-      void delete(Integer id);
+
 }

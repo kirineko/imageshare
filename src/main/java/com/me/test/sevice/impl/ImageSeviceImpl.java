@@ -24,11 +24,8 @@ public class ImageSeviceImpl implements ImageSevice {
 
     @Override
     public void add(Image image) {
-        imageMapper.add(image);
+        imageMapper.insert(image);
     }
 
-    @Override
-    public void delete(Integer id) {
-         imageMapper.delete(id);
-    }
+
 }

@@ -11,6 +11,6 @@ public interface ImageSevice {
 
     List<Image> queryAll();
     void add(Image image);
-    void delete(Integer id);
+
 }
 
