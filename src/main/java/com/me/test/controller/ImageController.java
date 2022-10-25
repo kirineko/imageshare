@@ -28,13 +28,5 @@ public class ImageController {
       imageSevice.add(image);
         return "添加成功";
     }
-    @DeleteMapping(value = "delete{id}")
-    @ResponseBody
-    public  String delete(@PathVariable("id") Integer id)
-    {
-     imageSevice.delete(id);
-
-        return "删除成功";
-    }
 
 }
